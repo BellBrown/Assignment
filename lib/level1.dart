@@ -37,7 +37,7 @@ class Level1 extends StatelessWidget {
           TextButton(onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (context) =>
             Level3()));
-          }, child: Text("login"),
+          }, child: Text("login",style: TextStyle(color: Colors.white),),
          style:TextButton.styleFrom(
            backgroundColor: Colors.blue
          ) , )
